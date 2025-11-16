@@ -51,15 +51,6 @@ body {
     z-index: 100;
     box-shadow: 0 1px 0 rgba(16,24,40,0.03);
     padding: var(--spacing-md) 0;
-    transition: padding 0.3s ease;
-}
-
-.nav.scrolled {
-    padding: var(--spacing-xs) 0;
-}
-
-.nav.scrolled .logo-img {
-    height: 50px;
 }
 
 .nav-container {

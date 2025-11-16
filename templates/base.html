@@ -88,21 +88,7 @@
     {% block scripts %}{% endblock %}
     
     <script>
-        // Shrink navbar on scroll (with debouncing to prevent stuttering)
-        let scrollTimeout;
-        window.addEventListener('scroll', () => {
-            if (scrollTimeout) {
-                window.cancelAnimationFrame(scrollTimeout);
-            }
-            scrollTimeout = window.requestAnimationFrame(() => {
-                const nav = document.querySelector('.nav');
-                if (window.scrollY > 100) {
-                    nav.classList.add('scrolled');
-                } else {
-                    nav.classList.remove('scrolled');
-                }
-            });
-        });
+        // Login modal and user management code would go here
     </script>
 </body>
 </html>
